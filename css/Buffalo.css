@@ -1,0 +1,399 @@
+body {
+background-color: #F1F4F8;
+font-family: 'Roboto', sans-serif;
+}
+.dark-grey {
+  color: #2D4251;
+}
+.light-grey {
+  color: #8095A8;
+}
+.blue {
+  color: #3899ED;
+}
+.blue-border {
+  border-color: #3899ED; 
+}
+.blue-bgr{
+  background-color: #3899ED;
+}
+.orange-bgr {
+  background-color: #FFBA00;
+}
+.white-bgr {
+  background-color: #FFFFFF;
+}
+.extra-small {
+  font-size: 9px;
+}
+.smaller {
+  font-size: 10px;
+}
+.small {
+  font-size: 12px;
+}
+.large {
+  font-size: 16px;
+}
+.extra-large {
+  font-size: 18px;
+}
+.bold-text {
+  font-weight: 600;
+}
+.box-shadow {
+  -webkit-box-shadow: 0px 3px 6px -5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 3px 6px -5px rgba(0,0,0,0.5);
+  box-shadow: 0px 3px 6px -5px rgba(0,0,0,0.5);
+}
+.box-shadow-wide {
+  -webkit-box-shadow: 0px 4px 6px -3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 4px 6px -3px rgba(0,0,0,0.3);
+  box-shadow: 0px 4px 6px -3px rgba(0,0,0,0.3);
+}
+
+.dashed-border {
+  padding-bottom: 15px;
+  border-bottom: 1.5px dashed #BBC5D0;
+}
+.solid-border {
+  border-bottom: 1.5px solid #BBC5D0;
+}
+.round {
+  border-radius: 50px;
+}
+.top-align {
+  vertical-align: super;
+}
+.base-align {
+  vertical-align: baseline;
+}
+.navbar {
+  min-height: 70px;
+}
+.navbar-brand {
+  padding:0;
+  margin: 0;
+  height: 70px;
+}
+.navbar-nav {
+  margin-top: 8px;
+}
+.menu {
+  
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #3899ED;
+  border-bottom: 1px solid #3899ED;
+  padding-bottom: 5px;
+}
+.navbar-nav > li > a {
+  font-weight: 300; 
+  margin-right: 15px;
+}
+.navbar-nav > li {
+  display: inline-block;
+}
+.contact {
+  margin-top: 10px;
+  float: right;
+  padding: 0;
+}
+.line {
+  display: table-row;
+}
+.text, .icon {
+  display: table-cell;
+}
+.icon i {
+  margin-right: 5px;
+}
+.text span {
+  margin-right: 20px;
+}
+.text a {
+  text-decoration: underline;
+  margin-left: 3px;
+}
+.buttons {
+  margin-left: 30px;
+}
+.buttons .btn {
+  width: 100px;
+  border-color: #F0F0F0;
+  text-align: justify;
+}
+
+.buttons button:first-of-type, .share .fa {
+  margin-right: 10px;
+}
+
+.dropdown-menu {
+  min-width: 110px;
+}
+.button-block {
+  padding-left: 0;
+  margin-left: -5px;
+}
+.button-block button {
+  padding-left: 20%;
+  text-align: left;
+  border-color: transparent;
+  width: 90%;
+  margin-bottom: 5px;
+  border-radius: 0 3px 3px 0;
+}
+.button-block .btn-primary, 
+.btn-primary {
+  background-color: #3899ED;
+  border-color: #3899ED;
+  color: #ffffff;
+}
+.btn-primary, .btn-info {
+  text-align: left;
+}
+.divider, .divider:active {
+  background: radial-gradient(90% 60%, #D1D4D8, #ffffff);
+  height: 1.5px;
+  width: 90%;
+  margin-top: 25px;  
+}
+.main {
+  border-radius: 3px;
+}
+.content  {
+  padding: 10px 15px 10px 10px;
+}
+.content .row, .calendar .btn, .calendar .txt {
+  margin: 10px 0;
+}
+.content .fa {
+  margin-right: 5px;
+}
+h4 .fa {
+  margin-left: 5px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+.carousel-indicators {
+  bottom: 0;
+}
+.carousel-indicators li {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.controls {
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  text-align: center;
+}
+.left.carousel-control .controls {
+  left: 15%;
+}
+.right.carousel-control .controls {
+  right: 15%;
+}
+.controls .fa {
+  display: inline;
+  font-size: 24px;
+  vertical-align: text-top;
+  margin: 0;
+}
+.carousel-control:focus .fa {
+  color: rgba(255, 255, 255, 1);
+}
+.content .btn {
+  padding: 4px 10px 2px 10px;
+  width: 75px;
+  margin-top: 0;
+  margin-right: 10px;
+  text-align: justify;
+  border-color: #BBC5D0;
+  color: #788FA3;
+}
+.btn.round:focus {
+  outline: transparent;
+}
+.star .fa-star, .star .fa-star-half-o, .star .fa-star-o {
+  color: #1988E9;
+  vertical-align: text-bottom;
+  margin-right: 0;
+}
+.star .fa-star-o{
+  margin-right: 10px;
+}
+.row.id div {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row.id a {
+  text-decoration: underline;
+}
+
+.content table, .calendar table {
+  width: 100%;
+  table-layout: fixed;
+}
+.content td, .content th {
+  padding-top:15px;
+  padding-bottom:5px;
+}
+
+.content th:first-of-type, .content td:first-of-type {
+  width:25px;
+  text-align: center;
+}
+.footer {
+  margin-top: 30px;
+  padding: 7px 25px;
+  font-weight: 600;
+}
+.calendar {
+  padding: 15px;
+  padding-bottom: 5px;
+  border-left: 1.5px dashed #BBC5D0;
+}
+.calendar table td {
+  padding: 3px 0;
+}
+.calendar section {
+  padding: 15px 0;
+}
+.tour-details {
+  padding-left: 12px;
+}
+.total-price {
+  font-size: 26px;
+}
+.form-group label {
+  margin-left: 10px;
+  font-weight: normal;
+} 
+.form-inline {
+  margin-top: 10px;
+}
+.promo {
+  margin-top: 0;
+}
+.promo label {
+  margin-bottom: 0;
+}
+.btn-primary.disabled {
+  opacity: 1;
+  padding: 0 5px;
+}
+.btn-link.disabled {
+  padding: 0px;
+}
+.button-group .btn {
+  margin: 0 0 5px 0;
+}
+.available, .ful {
+  margin-right: 10px;
+}
+.available>div, .full>div {
+  height: 7px;
+  width: 15px;
+}
+.datepicker-switch {
+  padding-bottom: 15px !important;
+}
+.datepicker {
+  margin: 0 auto;
+}
+.table-condensed .day {
+  border-radius: 50%;
+} 
+.table-condensed tr:first-of-type .day:nth-child(4) ~ .day,
+.table-condensed tr:nth-of-type(2) .day:first-child ~ .day, 
+.table-condensed tr:nth-of-type(2) .day:first-child {
+  background: #3899ED;
+  color: #ffffff;
+}
+.table-condensed tr:nth-of-type(3) .day:first-child {
+  background: #FFBA00;
+  color: #ffffff;
+}
+.table-condensed .active.day {
+  background:  #2D4251 !important;
+}
+.table-condensed .prev, .table-condensed .next  {
+  vertical-align: baseline;
+  color: #8095A8;
+}
+.table-condensed .prev:hover, .table-condensed .next:hover, .table-condensed .prev:focus, .table-condensed .next:focus  {
+  background: none;
+  color: #3899ED;
+}
+
+@media (max-width: 991px) {
+  .button-block .btn {
+    display: inline-block;
+    width: 19%;
+    font-size: 12px;
+    padding-left: 5px;
+    border-radius: 2px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .button-block {
+    margin-left: 0;
+    padding-left: 15px;
+    text-align: center;
+  }
+  .content {
+    margin-left: 0;
+  }
+} 
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin-left: -35px !important;
+  }
+  .menu {
+    margin-left: -25px;
+    float: left;
+  }
+  .menu > li > a {
+    margin-right: 0;
+  }
+  .buttons {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1199px){
+  .button-block .btn {
+    padding-left: 10%;
+  }
+  .menu {
+    margin-left: -25px;
+    float: left;
+  }
+  .menu > li > a {
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .buttons {
+    margin-left: 5px;
+    margin-right: 0;
+  }
+  .buttons button:first-of-type {
+    margin-right: 0;
+  }
+   .navbar-brand {
+    margin-left: -35px !important;
+  }
+  .contact .line {
+    font-size: 10px;
+  }
+}
